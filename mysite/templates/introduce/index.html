@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - Personal Intro duction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1{
+        color: white
+    }
+    h2, h3, h4 {
+      color: #333;
+    }
+    a {
+      color: #333;
+    }
+    #header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    #main-content {
+      background-color: #f7f7f7;
+      padding: 20px;
+      margin: 10px 0;
+    }
+    #footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1>Introducing my Friends </h1>
+  </header>
+
+  <section id="main-content">
+
+    <h2>Who am I </h2>
+    <p>Yang Dae-Han</p>
+     <ul>
+      <li>department : Mobile Systems Engineering </li>
+      <li>student numeber :  32182554</li>
+    </ul>
+    <br>
+       <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to send me an email at <a href="">32182554@dankook.ac.kr</a>. or <a href="">010-4903-0827</a></p>
+    <br><br>
+    <h2>My friends </h2>
+    <img src="https://github.com/YGwan/spring-chatgpt-communication/assets/68599095/459d6dcd-faeb-4fbf-898c-7d0bd0db5586" width="350" height="400">
+    <p>The picture is my friends </p>
+    <br>
+    <h3>Friend 1</h3>
+    <p>{{friend_list.0.friend}}</p>
+    <ul>
+      <li>Senior of MSE department, Dankook Univ, 2018</li>
+      <li>{{friend_list.0.code}}</li>
+        <a href="http://localhost:8000/friend_1/">more details..  </a>
+    </ul>
+    <br>
+    <h3>Friend 2</h3>
+    <p>{{friend_list.1.friend}}</p>
+    <ul>
+      <li>Senior of MSE department, Dankook Univ, 2018</li>
+      <li>{{friend_list.1.code}}</li>
+        <a href="http://localhost:8000/friend_2">more details.. </a>
+    </ul>
+
+
+    </section>
+
+
+
+
+  <footer id="footer">
+    <p>Copyright &copy; 2023 Yang Daehan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
